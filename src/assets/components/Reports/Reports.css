@@ -1,0 +1,96 @@
+.reports-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.title-container {
+  width: 100%;
+  min-height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 30px;
+    font-family: "inter";
+    margin: 0;
+  }
+}
+
+.report-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+
+  p {
+    font-size: 20px;
+    font-family: "inter";
+    border-right: 2px solid black;
+    padding: 5px;
+    margin: 0;
+  }
+}
+
+.column-names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+
+  p {
+    font-size: 20px;
+    font-family: "inter";
+    border-right: 2px solid black;
+    padding: 5px;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+.product-name-p {
+  width: 288px;
+
+  border-left: 2px solid black;
+}
+
+.info-p {
+  width: 25%;
+}
+
+.filter-button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 10px 0 10px;
+}
+
+.filter-container {
+  width: 80%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.calendar {
+  position: absolute;
+  top: 16%;
+  left: 29%;
+}
+
+.count-total {
+  font-size: 20px;
+  font-family: "inter";
+  border-right: 2px solid black;
+  padding: 5px;
+  border: 2px solid black;
+  border-top: unset;
+  margin: 0px 0 0 68%;
+  width: 22%;
+}

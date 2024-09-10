@@ -1,0 +1,35 @@
+.product-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+  width: 90%;
+  height: 50px;
+}
+
+.info-product {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  padding: 10px;
+}
+
+.crud-product {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  padding: 10px;
+}
+
+.crud-img {
+  margin: 3%;
+  cursor: pointer;
+}
+
+.p-product {
+  width: 200px;
+  margin: auto 10% auto 0;
+  font-size: 20px;
+}
